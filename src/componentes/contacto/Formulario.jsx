@@ -13,7 +13,7 @@ export const Formulario = () => {
     const handleChange = (e) => {
         const { value, name } = e.target;
         const newInput = { ...input, [name]: value };
-        if (newInput.senderName.length < 30 && newInput.senderEmail.length < 35 && newInput.senderIg.length < 35 && newInput.message.length < 250) {
+        if (newInput.senderName.length < 50 && newInput.senderEmail.length < 50 && newInput.senderIg.length < 50 && newInput.message.length < 250) {
             setInput(newInput);
         } else {
             swal('Alcanzaste el numero maximo de caracteres')
@@ -59,7 +59,7 @@ export const Formulario = () => {
                     name="senderName"
                     required
                     onChange={(e) => handleChange(e)}
-                    maxLength="30"
+                    maxLength="50"
                 />
             </Form.Group>
             <Form.Group className="mb-3 row align-items-center justify-content-center">
@@ -69,7 +69,7 @@ export const Formulario = () => {
                     type="text"
                     name="senderIg"
                     onChange={(e) => handleChange(e)}
-                    maxLength="30"
+                    maxLength="50"
                 />
             </Form.Group>
             <Form.Group className="mb-3 row align-items-center justify-content-center">
@@ -90,7 +90,7 @@ export const Formulario = () => {
                     as="textarea"
                     name="message"
                     required
-                    minLength="15"
+                    minLength="10"
                     maxLength="250"
                     rows={3}
                     onChange={(e) => handleChange(e)}
