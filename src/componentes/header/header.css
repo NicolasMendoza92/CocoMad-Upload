@@ -1,0 +1,131 @@
+/* ESTILOS PARA LA LANDING PPALES  */
+
+.header-style- {
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   height: 100vh;
+   transition: 0.5s;
+   background: url(../../assets/homealfajor.jpeg) no-repeat top center;
+}
+
+.header-style-nosotros {
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   height: 100vh;
+   transition: 0.5s;
+   margin-bottom: 3rem;
+   background: url(../../assets/nosotrosrisas.jpeg) no-repeat top center;
+}
+
+
+.header-style-productos{
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   height: 100vh;
+   transition: 0.5s;
+   margin-bottom: 3rem;
+   background: url(../../assets/productosalfa.jpeg) no-repeat top center;
+
+}
+
+.header-style-contacto{
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   height: 100vh;
+   transition: 0.5s;
+   margin-bottom: 3rem;
+   background: url(https://res.cloudinary.com/dcx1rcwvu/image/upload/v1635353154/cocoMAD/new_local_tdjzzx.jpg) no-repeat top center;
+}
+
+/* Estilos para las landing Extras */
+.header-style-carrito{
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   transition: 0.5s;
+   margin-bottom: 2rem;
+   background: url(https://res.cloudinary.com/dcx1rcwvu/image/upload/v1638211714/cocoMAD/navbar6transp_nabtif.png) no-repeat top center;
+}
+
+.header-style-register{
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   transition: 0.5s;
+   background: url(https://res.cloudinary.com/dcx1rcwvu/image/upload/v1638211714/cocoMAD/navbar6transp_nabtif.png) no-repeat top center;
+}
+
+.header-style-perfil{
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   transition: 0.5s;
+   margin-bottom: 2rem;
+   background: url(https://res.cloudinary.com/dcx1rcwvu/image/upload/v1638211714/cocoMAD/navbar6transp_nabtif.png) no-repeat top center;
+}
+
+.header-style-detalle{
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   transition: 0.5s;
+   margin-bottom: 2rem;
+   background: url(https://res.cloudinary.com/dcx1rcwvu/image/upload/v1638211714/cocoMAD/navbar6transp_nabtif.png) no-repeat top center;
+}
+.header-style-404{
+   background-size: cover !important;
+   overflow: hidden;
+   width: 100%;
+   transition: 0.5s;
+   margin-bottom: 2rem;
+   background-color: grey;
+}
+
+/* Estilos para las admin board */
+.header-style-login{
+   width: 100%;
+}
+.header-style-productList{
+   width: 100%;
+}
+.header-style-messageList{
+   width: 100%;
+}
+.header-style-saleList{
+   width: 100%;
+}
+.header-style-userList{
+   width: 100%;
+}
+.header-style-deliveryList{
+   width: 100%;
+}
+.header-style-adminBoard{
+   width: 100%;
+}
+
+
+/* Efectos del DIV header  */
+ .efecto-artesanal h2 {
+    font-size: 70px;
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    padding: 1rem;
+   transition: 0.5s;
+
+ }
+   
+ @media only screen and (max-width: 1050px) {
+    .efecto-artesanal h2 {
+       font-size: 40px;
+    }
+    .efecto-artesanal p {
+       font-size: 15px;
+    }
+ }
+
+

@@ -1,0 +1,100 @@
+
+.columna-detalle{
+    align-self: center;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.card-img-detalle{
+  background-color:none;
+  border: none;
+}
+.img-detalle{
+  height: auto;
+  width: auto;
+}
+.product-name{
+    font-family:'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+    border-bottom: 3px solid rgb(146, 210, 226);
+    display: inline-block;
+    color:black;
+}
+.product-description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 0.5rem;
+    font-weight: bold;
+    line-height: 50px;
+    color:black;
+    border-bottom: 3px solid rgb(146, 210, 226);
+}
+.product-price{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    color:rgb(71, 71, 71);
+    font-weight: bold;
+    line-height: 1rem;
+    border-bottom: 3px solid rgb(146, 210, 226);
+}
+.add-cart-btn-detail {
+    background: rgb(146, 210, 226);
+    color: whitesmoke;
+    border-color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    transition: 0.4s;
+  }
+  .add-cart-btn-detail:hover {
+    background: white;
+    color: rgb(146, 210, 226);
+    border-color: rgb(146, 210, 226);
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    transition: 0.4s;
+  }
+  
+  .added-cart-btn-detail {
+    background: whitesmoke;
+    color: rgb(146, 210, 226);
+    border-color: rgb(146, 210, 226);
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+  
+  }
+
+  .back-cart-btn-detail {
+    background: rosybrown;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    transition: 0.4s;
+  }
+  .back-cart-btn-detail:hover {
+    background: white;
+    color: rosybrown;
+    border-color: rosybrown;
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    transition: 0.4s;
+  }
+
+  /* PARTE DE BOX ARMABLES */
+
+  .box-header {
+    background-size: cover !important;
+    overflow: hidden;
+    width: 100%;
+    height: 7rem;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    padding: 2rem;
+    background-color: rgb(231, 170, 107);
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.lista-boxes p{
+margin-right: 8px;
+margin-left: 5px;
+}

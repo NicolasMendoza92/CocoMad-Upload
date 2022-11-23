@@ -1,0 +1,26 @@
+.about{
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.acordion-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.img-carrousel{
+    max-width: 800px;
+    max-height: 700px;
+}
+
+ 
+@media only screen and (max-width: 1400px) {
+    .img-carrousel {
+       max-height: 600px;
+    }
+ }

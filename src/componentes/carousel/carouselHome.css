@@ -1,0 +1,103 @@
+#main-slider-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#slider {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+#slider::-webkit-scrollbar{
+    display: none;
+}
+
+.slider-right-icon {
+    background: rgb(231, 170, 107);
+    position: absolute;
+    border-radius: 100%;
+    font-size: 40px;
+    opacity: 0.5;
+}
+.slider-left-icon {
+    z-index: 1;
+    font-size: 40px;
+    background: rgb(231, 170, 107);
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 766px) {
+    .slider-right-icon {
+        background: rgb(231, 170, 107);
+        position: absolute;
+        border-radius: 100%;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+    .slider-left-icon {
+        z-index: 1;
+        background: rgb(231, 170, 107);
+        position: absolute;
+        border-radius: 100%;
+        opacity: 0.5;
+        font-size: 25px;
+    }
+  }
+
+.slider-right-icon {
+    right: 0;
+}
+.slider-left-icon {
+    left:0;
+}
+
+.slider-right-icon:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+.slider-left-icon:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+.card-tamaño {
+    width: 22rem !important;
+    margin-bottom: 2rem;
+    background: rgb(255, 255, 255, 0) !important;
+}
+
+.card-comentarios {
+    border: none;
+}
+
+.card-comentarios h3 {
+    font-size: 1.875rem;
+    color: rgb(146, 210, 226);
+    font-family: 'Julius Sans One', sans-serif;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.descripcion-comentarios {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(109, 107, 107) !important;
+}
+
+.descripcion-nombre {
+    font-size: 700;
+    font-weight: bold;
+    color: #212529;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    line-height: 1.5;
+}

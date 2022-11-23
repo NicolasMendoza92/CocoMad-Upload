@@ -1,0 +1,25 @@
+.apertura {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+ }
+ .apertura a {
+   font-weight: 600;
+   text-decoration: none;
+   color: #212529;
+ }
+
+ .apertura a:hover {
+   text-decoration: none;
+   color:rgb(146, 210, 226) ;
+ }
+
+ .apertura li {
+   list-style: none;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ 

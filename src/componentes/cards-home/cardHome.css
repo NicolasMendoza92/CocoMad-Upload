@@ -1,0 +1,65 @@
+.card-home {
+    font-family: 'Montserrat', sans-serif;;
+    cursor: pointer;
+    border: none;
+}
+.text-card-home{
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.titulo-card-home{
+    font-size: 30px;
+}
+@media screen and (max-width: 766px) {
+    .titulo-card-home{
+        font-size: 20px;
+    }
+    .text-card-home{
+        font-size: 15px;
+    }
+  }
+
+.overlay {
+    position: absolute;
+    border: none;
+    font-family:'Montserrat', sans-serif;;
+    bottom: 0;
+    background: rgb(146, 210, 226);
+    background: rgb(146, 210, 226);
+    color: whitesmoke;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .container-photo-home {
+      border: none;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .container-photo-home:hover .overlay {
+    opacity: 1;
+    border: none;
+  }
+  
+/* glass card css */
+
+  .glass-card {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: #232b3a88;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.glass-card:hover {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: #232b3a88;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: rgb(231, 170, 107);
+}
