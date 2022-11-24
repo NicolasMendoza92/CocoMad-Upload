@@ -6,6 +6,7 @@ import { CarouselHome } from '../componentes/carousel/CarouselHome';
 import { CardsHome } from '../componentes/cards-home/CardsHome';
 import { useEffect } from 'react';
 import { FaHandHoldingHeart, FaHome, FaShoppingBag } from 'react-icons/fa';
+import { PromoCards } from '../componentes/cards-home/PromoCards';
 
 let sliderMensajes = [
   {
@@ -119,7 +120,7 @@ export default function Home({setSearch}) {
     <>
       <div data-aos="fade-up" className="tarjetas d-flex flex-column justify-content-center align-items-center mt-5 mb-5">
         <h1> ¡QUIERO TODO!</h1>
-        <p>Con tan solo un click, lo puedes disfrutar.</p>
+        <p>Hecha un vistazo a nuestros #COCOPRODUCTOS</p>
       </div>
       <Container>
         <CardsHome setSearch={setSearch}/>
@@ -131,6 +132,12 @@ export default function Home({setSearch}) {
           <Col md={4} lg={4} className='social-icon-home'><FaShoppingBag /><p>Disfrutalo en tu casa!</p></Col>
         </Row>
       </div>
+      <div data-aos="fade-up" className="tarjetas d-flex flex-column justify-content-center align-items-center text-center">
+        <h1>❤ ALFAJORES "BEST SELLERS" ❤ </h1>
+      </div>
+      <Container>
+        <PromoCards/>
+      </Container>
       <div data-aos="fade-up" className="tarjetas d-flex flex-column justify-content-center align-items-center text-center p-3 mt-3">
         <h1>❤ ESTAMOS MUY AGRADECIDOS CON NUESTROS COCOFANS ❤ </h1>
       </div>

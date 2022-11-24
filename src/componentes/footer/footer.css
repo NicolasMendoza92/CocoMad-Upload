@@ -26,6 +26,9 @@
    font-size: 1.5rem;
    color: rgb(255, 255, 255);
 }
+.glovo-icon{
+   width: 4.2rem;
+}
 
 @media only screen and (max-width: 992px) {
    .footer p {

@@ -3,6 +3,9 @@
     cursor: pointer;
     border: none;
 }
+.promo-bestseller {
+  max-height: 600px;
+}
 .text-card-home{
   font-family: 'Montserrat', sans-serif;;
 }

@@ -46,7 +46,7 @@ export const CardsHome = ({ setSearch }) => {
                     <Card.Img src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1632154707/cocoMAD/tortas_g15ap8.jpg" alt="Card image" />
                     <Card.ImgOverlay className="text-center d-flex flex-column align-items-center justify-content-center py-5 px-4 card-home">
                         <div className="overlay">
-                            <Card.Title className="titulo-card-home">COCO TARTAS</Card.Title>
+                            <Card.Title className="titulo-card-home">#COCOTARTAS</Card.Title>
                             <Card.Text className='text-card-home'>
                                 Ideal para reuniones y festejos
                             </Card.Text>

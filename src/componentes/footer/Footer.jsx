@@ -33,7 +33,9 @@ export const Footer = () => {
                             </div>
                             <div className="subtitle-footer mb-2">
                                 <p>Busca nuestros productos en</p>
-                                <a href="https://toogoodtogo.es/es/">TooGoodToGo</a> <br />
+                                <a href="https://glovoapp.com/es/en/madrid/cocomad-bakery-madrid/" target="blank"> <img className='glovo-icon' src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1669290092/cocoMAD/glovoapp_pwoeci.png" alt="glovo-icon" /> </a>
+                                <a href="https://toogoodtogo.es/es/" target="blank"><img className='glovo-icon' src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1669290528/cocoMAD/Too_Good_To_Go_Logo.svg_rfpg3m.png" alt="glovo-icon" /></a> 
+                                <br />
                                 <a href="https://wa.me/c/34635790277" target="blank"> <FaWhatsapp className="social-icon-whats" /> Contactanos </a>
                             </div>
                         </div>
